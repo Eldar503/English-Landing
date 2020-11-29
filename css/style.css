@@ -1,0 +1,249 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+  --secondary-font: "Herr Von Muellerhoff", cursive;
+  --body-font: "Cabin", sans-serif;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #c59d5f;
+  --body-font-color: #515151;
+}
+
+html {
+  font-family: var(--body-font);
+  font-size: 10px;
+  color: var(--body-font-color);
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 3.9rem 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 122.5rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.newsletter {
+  background-color: rgba(175, 207, 234, 0.7686274509803922);
+}
+
+.newsletter .width {
+  background: url(../img/формоплбэк.png);
+  min-width: 645px;
+  min-height: 655px;
+}
+.newsletter__row {
+  display: flex;
+}
+.newsletter__center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter__text {
+  margin-top: 130px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "TeX Gyre Adventor";
+}
+.newsletter__description {
+  margin-top: 175px;
+  margin-left: 80px;
+}
+.text {
+  width: 291px;
+  height: 50px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "TeX Gyre Adventor";
+}
+
+.img1 {
+  width: 35%;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+.img2 {
+  width: 28%;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+/* newsletter right */
+.newsletter__test {
+  margin-top: 50px;
+  margin-left: 75px;
+}
+.newsletter__contеnt {
+  margin-top: 40px;
+  background-color: #87949d;
+  width: 575px;
+  height: 571px;
+}
+.newsletter__flex {
+  display: flex;
+  margin-top: 20px;
+}
+.newsletter__titlemany {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "TeX Gyre Adventor";
+}
+.newsletter__titlemany2 {
+  margin-top: 50px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "TeX Gyre Adventor";
+}
+.newsletter__many {
+  margin-left: 3px;
+  width: 95px;
+  height: 58px;
+  background-color: white;
+}
+.electromany {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 70px;
+  height: 110%;
+  z-index: 1;
+}
+.electromany {
+  z-index: 1;
+}
+.fff {
+  display: none;
+  margin-left: 10px;
+  z-index: -1 !important;
+  width: 70px;
+  height: 110%;
+}
+.newsletter__many:hover {
+  background-color: black;
+}
+.fff:hover {
+  display: table-row;
+  margin-bottom: 50px;
+}
+.hover-search {
+  margin-top: -83%;
+}
+.newsletter-form {
+  margin-top: 15px;
+}
+hr {
+  width: 390px;
+  height: 1px;
+  background-color: #fff;
+  border: none;
+}
+.co {
+  position: relative;
+  width: 100px;
+  height: 25px;
+  text-decoration: underline;
+}
+.newsletter-input {
+  outline: none;
+  background: transparent;
+  width: 400px;
+  padding: 1rem;
+  border: none;
+}
+.imput .newsletter-input {
+  margin-left: 30px;
+  background: transparent;
+  width: 370px;
+  padding: 1rem;
+  border: none;
+}
+.newsletter-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1px 0.6rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10.5rem;
+  border: none;
+}
+.imgr {
+  min-width: 33px;
+  min-height: 10px;
+  position: absolute;
+  margin-left: -925%;
+  margin-top: 90px;
+}
+.none {
+  margin-top: 50px;
+}
+.newsletter__align {
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 170px;
+  margin-right: 50px;
+}
+.newsletter__button {
+  margin-top: 45px;
+  padding: 15px 15px;
+  width: 267px;
+  height: 76px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 28px;
+  color: black;
+  font-weight: 400;
+  font-family: "TeX Gyre Adventor";
+  text-align: center;
+  transition: 0.5s;
+  background-color: white;
+}
+.newsletter__button:hover {
+  color: #10c9c3;
+  background-color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.newsletter__friends {
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "TeX Gyre Adventor";
+}
