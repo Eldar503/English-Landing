@@ -247,3 +247,96 @@ hr {
   font-weight: 400;
   font-family: "TeX Gyre Adventor";
 }
+.payment{
+  padding: 50px;
+  background-color: rgba(175,207,234,0.7686274509803922);
+  color: white;
+}
+.bigroup{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: url(../../img/big-group.webp) center no-repeat;
+  max-width: 644px;
+  min-height: 656px;
+  margin-left: 100px;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.bigroup__title{
+  text-align: center;
+}
+.bigroup__commission{
+  margin-top: 40px;
+}
+.payment__right{
+  background-color: #87949d;
+  max-width: 450px;
+  margin: auto;
+  max-height: 572px;
+  padding: 0 50px;
+}
+.payment__carts{
+  display: flex;
+  justify-content: space-between;
+}
+.payment__img,
+.payment__img--hover{
+  cursor: pointer;
+  max-width: 97px;
+  background: #fff;
+  padding: 0 10px;
+  margin: 0 2px;
+  box-sizing: border-box;
+}
+.payment__img--hover{
+  display: none;
+  background: #000;
+}
+.payment__anim:hover .payment__img--hover{
+  display: inline;
+}
+.payment__anim:hover .payment__img{
+  display: none;
+}
+.payment__first{
+  padding: 50px 0 0 0;
+}
+.payment__carts{
+  z-index: 2;
+  margin-top: 21px;
+}
+.payment__data{
+  margin-top: 49px;
+}
+.input__russian{
+  vertical-align: middle;
+}
+.payment__border{
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-end;
+}
+.input__icon{
+  min-width: 50px;
+  text-align: center;
+}
+.payment__btn{
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 28px;
+  margin-top: 50px;
+}
+.payment__offer{
+  text-align: center;
+  justify-content: space-evenly;
+}
+.input__cross,
+.input__checked{
+  display: none;
+  max-width: 24px;
+}
+.payment__support{
+  color: white;
+  margin-top: 42px;
+}
